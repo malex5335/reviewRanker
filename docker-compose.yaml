@@ -1,7 +1,7 @@
 version: "1"
 services:
-  sup3rdriv3:
+  reviewRanker:
     build:
       dockerfile: ./Dockerfile
     ports:
-      - 3000:8080
+      - 8080:8080

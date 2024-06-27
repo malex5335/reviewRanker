@@ -1,0 +1,40 @@
+POST http://localhost:8080/reviews/ordered
+Content-Type: application/json
+
+[
+  {
+    "id": "https://www.amazon.de/-/en/LEVOIT-Advanced-Control-Oscillation-Cooling/dp/B0BWJW8HTL/",
+    "minStars": 1,
+    "maxStars": 5,
+    "averageStars": 4.6,
+    "reviews": 26604
+  },
+  {
+    "id": "https://www.amazon.de/-/en/Midea-Floor-Quiet-Remote-Control/dp/B08B1KZTSY/",
+    "minStars": 1,
+    "maxStars": 5,
+    "averageStars": 4.4,
+    "reviews": 1168
+  },
+  {
+    "id": "https://www.amazon.de/-/en/Brandson-Adjustable-Different-Oscillation-Approximately/dp/B07NWLK47F/",
+    "minStars": 1,
+    "maxStars": 5,
+    "averageStars": 4.4,
+    "reviews": 3175
+  },
+  {
+    "id": "https://www.amazon.de/-/en/Midea-FZ10-17JR-Elegant-Remote-Control/dp/B07P6QYW66/",
+    "minStars": 1,
+    "maxStars": 5,
+    "averageStars": 4.4,
+    "reviews": 1291
+  },
+  {
+    "id": "https://www.amazon.de/-/en/Midea-FZ10-17JR-Elegant-Remote-Control/dp/B07P6QYW66/",
+    "minStars": 1,
+    "maxStars": 5,
+    "averageStars": 4.4,
+    "reviews": 10
+  }
+]
